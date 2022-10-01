@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css"/>
+    </head>
+        <body>
+            <script src="Script.js"></script>
+            <main class="container">
+
+                <h1 class="page-title">Tabela de Pontuação</h1>
+            
+                <table>
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Nome</th>
+                      <th>Vitórias</th>
+                      <th>Empates</th>
+                      <th>Derrotas</th>
+                      <th>Pontos</th>
+                      <th colspan="4">Ações</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tabelaJogadores">
+            
+                  </tbody>
+                </table>
+                <button class="limpar-tabela" type="button" onclick="zerarTabela()">Reiniciar contagem</button>
+                <form class="formulario">
+                  <h2>Gostaria de adicionar um novo jogador?</h2>
+                  <input type="text" id="nome-jogador" placeholder="Nome do jogador">
+                  <input type="text" id="icone-jogador" placeholder="Ícone do jogador">
+                  <button type="button" onclick="AdicionaJogadorModal()" id="botao-adiciona-jogador">Adicionar Jogador</button>
+                </form>
+              </main>
+              <section class="modal-novo-jogador" id="modal-novo-jogador"></section>
+            </body>
+</html>

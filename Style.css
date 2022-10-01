@@ -1,0 +1,214 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    align-items: center;
+    background-image: url("https://s2.glbimg.com/168ww303_VfFMUYVsp1hjzt0x6c=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/l/3/najAUdSDAAKxbJswarJQ/lbff-6-trofeu-bruno-alvares-garena.jpg");
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Mono", monospace;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  
+  .container {
+    background-color: #00000050;
+    padding: 20px;
+    width: 750px;
+    border-radius: 10px;
+  }
+  
+  .page-title {
+    color: #a00037;
+    font-family: "Chewy";
+    font-size: 32px;
+    margin-bottom: 1rem;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    width: 750px;
+  }
+  
+  th {
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  td,
+  th {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .botao-acao {
+    background-color: #a00037;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    padding: 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .botao-acao:hover {
+    box-shadow: 0 0 10px #00000075;
+    transition: 0.5s;
+  }
+  
+  .botao-reset {
+    padding: 2px;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .botao-reset:hover {
+    background-color: #aeaeae;
+    transition: 0.5s;
+  }
+  
+  .icone-jogador {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin: 2px 0 0 0;
+    border-radius: 50%;
+  }
+  
+  .reset-icon {
+    width: 15px;
+  }
+  
+  .remove-icon {
+    height: 18px;
+  }
+  
+  .limpar-tabela {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 1.5rem;
+  }
+  
+  .limpar-tabela:hover {
+    background-color: #a00037;
+    color: #f2f2f2;
+    transition: 0.5s;
+  }
+  
+  .formulario {
+    margin-top: 1.5rem;
+  }
+  
+  .formulario h2 {
+    margin-bottom: 1rem;
+    color: #f2f2f2;
+  }
+  
+  .formulario input {
+    padding: 6px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .formulario button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .formulario button:hover {
+    background-color: #a00037;
+    transition: 0.5s;
+    color: #f2f2f2;
+  }
+  
+  .modal-novo-jogador {
+    width: 500px;
+    height: 250px;
+    background-color: #c6c6c6;
+    border-radius: 10px;
+    position: fixed;
+    top: calc(50vh - 125px);
+    left: calc(50vw - 250px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .modal-novo-jogador--ativo {
+    display: flex;
+  }
+  
+  .modal-novo-jogador__titulo {
+    font-size: 20px;
+  }
+  
+  .modal-novo-jogador__jogador {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .modal-novo-jogador__jogador img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 50%;
+  }
+  
+  .modal-novo-jogador__botoes {
+    margin-top: 1.5rem;
+  }
+  
+  .modal-novo-jogador__botoes button {
+    padding: 8px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .modal-novo-jogador__botoes button:hover {
+    background-color: #a00037;
+    color: #f2f2f2;
+    transition: 0.5s;
+  }
